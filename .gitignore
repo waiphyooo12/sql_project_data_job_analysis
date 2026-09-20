@@ -1,5 +1,4 @@
 csv_files/.DS_Store
-advanced_sql/query.sql
 csv_files/company_dim.csv
 csv_files/job_postings_fact.csv
 csv_files/skills_dim.csv
