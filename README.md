@@ -20,12 +20,12 @@ The analysis explores job postings across Thailand and Singapore, as well as rem
 
 ## 🛠️ Tools Used
 
-| Tool | Purpose |
-|---|---|
-| SQL | Data querying and analysis |
-| PostgreSQL | Database management |
-| Visual Studio Code | Writing and managing SQL scripts |
-| GitHub | Version control and project portfolio |
+| Tool               | Purpose                               |
+| ------------------ | ------------------------------------- |
+| SQL                | Data querying and analysis            |
+| PostgreSQL         | Database management                   |
+| Visual Studio Code | Writing and managing SQL scripts      |
+| GitHub             | Version control and project portfolio |
 
 ---
 
@@ -47,6 +47,7 @@ The analysis uses the following tables:
 The first analysis identifies the top 10 highest-paying jobs in Thailand and Singapore.
 
 **Filters and approach:**
+
 - Includes jobs located in Thailand or Singapore.
 - Excludes postings without an annual average salary.
 - Joins job postings with company information.
@@ -59,6 +60,7 @@ The first analysis identifies the top 10 highest-paying jobs in Thailand and Sin
 This analysis explores the skills connected to high-paying, non-senior data analyst positions in Thailand and Singapore.
 
 **Filters and approach:**
+
 - Includes Thailand and Singapore.
 - Focuses on `Data Analyst` roles.
 - Excludes roles containing `Senior` in the job title.
@@ -67,6 +69,7 @@ This analysis explores the skills connected to high-paying, non-senior data anal
 - Returns the top 20 job-skill records.
 
 **Key insight documented in the SQL file:**
+
 - Python and SQL are highlighted as core skills.
 - Tableau and Snowflake are identified as business intelligence and cloud-related tools.
 - The analysis emphasizes the value of combining coding, querying, and business intelligence skills.
@@ -78,6 +81,7 @@ This analysis explores the skills connected to high-paying, non-senior data anal
 This analysis identifies the most frequently requested skills in remote data analyst job postings.
 
 **Filters and approach:**
+
 - Includes `Data Analyst` positions.
 - Includes only work-from-home jobs.
 - Counts the number of job postings associated with each skill.
@@ -90,6 +94,7 @@ This analysis identifies the most frequently requested skills in remote data ana
 This analysis explores skills associated with higher average salaries among remote data analyst positions.
 
 **Filters and approach:**
+
 - Includes `Data Analyst` positions.
 - Includes only work-from-home jobs.
 - Excludes postings without an annual average salary.
@@ -165,6 +170,6 @@ project_sql/
 
 ## 👤 Author
 
-**Waiphy Oo**
+**Wai Phyo Oo**
 
 This project is part of my learning journey in SQL, data analytics, and the data job market.
